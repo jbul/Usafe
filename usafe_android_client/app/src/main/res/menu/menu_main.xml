@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <item  android:id="@+id/contact_item"
+        android:title="Add Contact"
+        android:onClick="addContact"
+        app:showAsAction="never"/>
+
+    <item  android:id="@+id/profile_item"
+        android:title="Preferences"
+        android:onClick="accessProfile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item2"
+        android:title="Log out"
+        android:onClick="logout"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Usafe</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_navigation">Map</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="start">Start</string>
+    <string name="start_navigation">Start Navigation</string>
+    <string name="running_message">We detected you are running.\nAre you safe?</string>
+    <string name="msg_token_fmt">Notificationmessage %s</string>
+    <string name="api_key">API KEY</string>
+    <string name="home_IP">API IP</string>
+    <string name="title_activity_maps_followers">Map</string>
+    <string name="title_activity_journey">Map</string>
+    <string name="ask_permission">Please allow Speech to always run in the background,else our services can\'t be accessed when you are in distress</string>
+</resources>

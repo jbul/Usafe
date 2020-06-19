@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/imgPers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgPers"
+        android:textStyle="bold"
+        android:textColor="@color/primaryLightColor"
+        android:text="TextView"/>
+
+
+    <ImageView
+        android:id="@+id/inviteImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingRight="7dp"
+        android:src="@drawable/ic_person_add_black_24dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/inviteTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inviteImage"
+        android:layout_margin="0dp"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        android:text="Add"/>
+
+    <ImageView
+        android:id="@+id/phoneImg"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_below="@id/imgPers"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_local_phone_black_24dp" />
+
+    <TextView
+        android:id="@+id/phone_layout"
+        android:layout_below="@id/name_layout"
+        android:layout_toRightOf="@id/phoneImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TextView4"/>
+
+    <TextView
+        android:id="@+id/id_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="-1"/>
+
+</RelativeLayout>

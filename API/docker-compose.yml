@@ -1,0 +1,31 @@
+version: '3.7'
+services:
+  usafe-api:
+    build:
+      context: .
+    image: usafe/usafe-api:latest
+    ports:
+      - "8080:8080"
+    networks:
+      - usafe
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.7.2
+    networks:
+      - usafe
+    environment:
+      - cluster.name=es-cluster
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+  mysql:
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE:
+    networks:
+      - usafe
+networks:
+  usafe:

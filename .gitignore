@@ -1,0 +1,17 @@
+*.idea*
+.gradle
+.gradle/*
+build
+out
+API/.gradle/*
+API/.idea*
+API/.idea/workspace.xml
+API/.idea/vcs.xml
+API/.gradle/buildOutputCleanup/outputFiles.bin
+API/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+API/.gradle/4.10/taskHistory/taskHistory.lock
+API/.gradle/4.10/taskHistory/taskHistory.bin
+API/.gradle/4.10/fileHashes/fileHashes.lock
+API/.gradle/4.10/fileHashes/fileHashes.bin
+API/out/*
+API/target*

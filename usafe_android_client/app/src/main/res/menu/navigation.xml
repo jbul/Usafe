@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_stop"
+        android:onClick="stopJourney"
+        android:icon="@drawable/ic_stop_black_24dp"
+        android:title="Stop Journey"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/navigation"
+        android:title=""
+        android:visible="true"/>
+
+
+
+</menu>

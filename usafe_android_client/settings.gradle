@@ -1,0 +1,2 @@
+include ':app', ':speech'
+rootProject.name='usafe_android_client'
